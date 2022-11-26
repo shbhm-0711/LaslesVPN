@@ -1,7 +1,8 @@
-import "./App.css";
+import Raect, { useState } from "react";
+import styles from "./App.module.css";
 
 function App() {
-  return <div className="App">Start</div>;
+  return <div className={styles.App}>Start</div>;
 }
 
 export default App;
