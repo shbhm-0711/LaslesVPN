@@ -1,0 +1,9 @@
+export { default as ButtonOval } from "./buttomOval/ButtonOval";
+export { default as ButtonRect } from "./buttonRect/ButtonRect";
+export { default as FeatureList } from "./featureList/FeatureList";
+export { default as Infographic } from "./infographic/Infographic";
+export { default as Navbar } from "./navbar/Navbar";
+export { default as Plan } from "./plan/Plan";
+export { default as Sponsors } from "./sponsors/Sponsors";
+export { default as Subscribe } from "./subscribe/Subscribe";
+export { default as TestimonyCard } from "./testimonyCard/TestimonyCard";

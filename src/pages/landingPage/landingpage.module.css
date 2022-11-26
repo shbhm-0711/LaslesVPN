@@ -1,0 +1,10 @@
+div {
+  background-color: aqua;
+}
+
+.topBar {
+  background-color: bisque;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
