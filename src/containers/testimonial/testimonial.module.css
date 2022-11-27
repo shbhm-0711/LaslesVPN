@@ -1,0 +1,28 @@
+.paragraph {
+  color: #4f5665;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 188%;
+
+  text-align: center;
+}
+
+.card {
+  background-color: blueviolet;
+  border: 2px solid black;
+}
+
+.heading2 {
+  color: #0b132a;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 143%;
+
+  text-align: center;
+  margin-top: 135px;
+  margin-bottom: 9.4px;
+}
+.testimonials {
+  display: flex;
+}

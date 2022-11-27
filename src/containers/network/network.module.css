@@ -1,0 +1,60 @@
+.map {
+  width: 1060px;
+  height: 537.77px;
+  margin: 155.81px auto;
+}
+
+.parahgraph {
+  color: #4f5665;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 188%;
+
+  text-align: center;
+}
+
+.heading2 {
+  color: #0b132a;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 143%;
+
+  text-align: center;
+  margin-top: 135px;
+  margin-bottom: 9.4px;
+}
+
+.sponsors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto 69.61px;
+}
+
+.sponsorLogo1 {
+  height: 90px;
+  background-color: #fff;
+  background: #fff;
+}
+.sponsorLogo2 {
+  height: 60px;
+  background-color: #fff;
+  background: #fff;
+}
+.sponsorLogo3 {
+  background-color: #fff;
+  background: #fff;
+  height: 180px;
+}
+.sponsorLogo4 {
+  background-color: #fff;
+  background: #fff;
+  height: 70px;
+}
+.sponsorLogo5 {
+  background-color: #fff;
+  background: #fff;
+  height: 50px;
+}

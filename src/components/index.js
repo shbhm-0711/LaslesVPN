@@ -7,3 +7,4 @@ export { default as Plan } from "./plan/Plan";
 export { default as Sponsors } from "./sponsors/Sponsors";
 export { default as Subscribe } from "./subscribe/Subscribe";
 export { default as TestimonyCard } from "./testimonyCard/TestimonyCard";
+export { default as List } from "./list/List";

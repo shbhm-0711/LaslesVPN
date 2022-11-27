@@ -1,0 +1,97 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+
+  width: 330px;
+  height: 760px;
+  left: 175px;
+  margin: auto 25px;
+}
+
+.benifitsList {
+  flex: 5;
+
+  list-style-type: none;
+}
+
+.planImgClass {
+  flex: 2;
+  width: 144.9px;
+  /* height: 165.37px; */
+  margin: 79.63px auto 30px;
+}
+
+.selectPlan {
+  flex: 1;
+  margin: 50px auto;
+  width: 177.88px;
+  height: 45px;
+}
+.selectPlan:hover {
+  background-color: #f53838;
+}
+
+@media screen and (max-width: 1281px) {
+  .card {
+    margin: auto 40px;
+  }
+  .planImgClass {
+    margin: 0 auto;
+  }
+  .benifitsList {
+    margin: 20px auto;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .card {
+    margin: auto 10px;
+  }
+
+  .planImgClass {
+    margin: 0 auto;
+  }
+
+  .benifitsList {
+    margin: 20px auto;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .card {
+    margin: auto 10px;
+  }
+
+  .planImgClass {
+    margin: 0 auto;
+  }
+
+  .benifitsList {
+    margin: 20px auto;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .card {
+    margin: 15px auto;
+    height: auto;
+    width: 95%;
+    flex-direction: row;
+  }
+
+  .planImgClass {
+    width: 150px;
+    margin: 0;
+  }
+
+  .benifitsList {
+    margin: 20px 0;
+    padding: 0;
+  }
+}

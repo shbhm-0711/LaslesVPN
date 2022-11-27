@@ -1,0 +1,30 @@
+.plans {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto 174px;
+}
+
+@media screen and (max-width: 1281px) {
+  .plans {
+    margin: auto 80px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .plans {
+    margin: auto 40px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .plans {
+    margin: auto 7px;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .plans {
+    flex-direction: column;
+    margin: 30px auto;
+  }
+}

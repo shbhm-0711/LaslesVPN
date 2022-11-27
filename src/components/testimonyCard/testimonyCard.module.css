@@ -1,0 +1,74 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 170px;
+  left: 70.47px;
+  top: 1923.58px;
+  margin: auto 15px;
+  padding: 15px;
+  margin-top: 60px;
+
+  background: #ffffff;
+  border: 0.939651px solid #dddddd;
+  border-radius: 4.69826px;
+}
+.main:hover {
+  border: 1px solid #f53838;
+}
+.top {
+  display: flex;
+}
+.image {
+  width: 60px;
+  height: 60px;
+  flex: 1;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+}
+.heading4 {
+  margin: 0;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 167%;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+
+  color: #0b132a;
+}
+.location {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 180%;
+  align-items: center;
+  text-align: center;
+
+  color: #4f5665;
+}
+.rating {
+  flex: 1;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 188%;
+  align-items: center;
+  color: #0b132a;
+}
+.description {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 188%;
+  align-items: center;
+  color: #0b132a;
+}

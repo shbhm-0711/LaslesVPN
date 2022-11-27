@@ -1,0 +1,18 @@
+.listItem {
+  color: #4f5665;
+  margin-left: 12.08px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 214%;
+}
+
+.icon {
+  height: 20px;
+  margin: auto 0;
+}
+
+.listFlex {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+}

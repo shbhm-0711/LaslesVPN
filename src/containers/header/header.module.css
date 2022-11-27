@@ -1,12 +1,11 @@
 .illustrationWithLamp {
-  width: 611.24px;
-  height: 382.44px;
-  margin-left: 40.76px;
+  width: 508.12px;
+  height: 414.71px;
+  margin-right: 169.48px;
 }
 
 .content {
   display: flex;
-  /* flex-direction: column; */
   margin: auto 70px;
 }
 
@@ -38,13 +37,13 @@
 
 @media screen and (max-width: 1281px) {
   .illustrationWithLamp {
-    width: 400px;
-    /* height: 382.44px; */
+    width: 380px;
+    margin-right: 120px;
   }
   .briefing {
     align-items: center;
   }
-  .c .content {
+  .content {
     margin: auto 50px;
   }
   .heading1 {
@@ -69,7 +68,6 @@
   .illustrationWithLamp {
     width: 500px;
     margin: auto;
-    /* height: 382.44px; */
   }
   .content {
     flex-direction: column;

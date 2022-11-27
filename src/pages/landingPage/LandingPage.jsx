@@ -1,5 +1,5 @@
 import React from "react";
-import { Infographic, Navbar } from "../../components/index";
+import { Infographic, Navbar, Subscribe } from "../../components/index";
 import {
   ChooseYourPlan,
   Features,
@@ -7,22 +7,23 @@ import {
   Header,
   Network,
 } from "../../containers/index";
+import Testimonial from "../../containers/testimonial/Testimonial";
 
 import styles from "./landingpage.module.css";
 
 const LandingPage = () => {
   return (
-    <div>
-      <div className={styles.top}>
-        <Navbar />
-        <Header />
-      </div>
+    <React.Fragment>
+      <Navbar />
+      <Header />
       <Infographic />
       <Features />
       <ChooseYourPlan />
       <Network />
+      <Testimonial />
+      <Subscribe />
       <Footer />
-    </div>
+    </React.Fragment>
   );
 };
 

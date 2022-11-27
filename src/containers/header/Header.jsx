@@ -17,7 +17,11 @@ const Header = () => {
         </p>
         <ButtonRect className={styles.btn}>Get Started</ButtonRect>
       </div>
-      <img className={styles.illustrationWithLamp} src={IllustrationWithLamp} />
+      <img
+        className={styles.illustrationWithLamp}
+        src={IllustrationWithLamp}
+        alt="guy surfing web"
+      />
     </header>
   );
 };
