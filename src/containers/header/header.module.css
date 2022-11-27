@@ -1,6 +1,7 @@
 .illustrationWithLamp {
   width: 611.24px;
   height: 382.44px;
+  margin-left: 40.76px;
 }
 
 .content {
@@ -29,7 +30,6 @@
 .briefing {
   display: flex;
   flex-direction: column;
-  /* width: 300px; */
 }
 .btn {
   padding: 12px;
@@ -41,14 +41,19 @@
     width: 400px;
     /* height: 382.44px; */
   }
-  .content {
+  .briefing {
+    align-items: center;
+  }
+  .c .content {
     margin: auto 50px;
+  }
+  .heading1 {
+    font-size: 45px;
   }
 }
 @media screen and (max-width: 1025px) {
   .illustrationWithLamp {
     width: 320px;
-    /* height: 382.44px; */
   }
   .briefing {
     margin-right: 50px;
@@ -57,7 +62,7 @@
     margin: auto 30px;
   }
   .heading1 {
-    font-size: 40px;
+    font-size: 38px;
   }
 }
 @media screen and (max-width: 769px) {
