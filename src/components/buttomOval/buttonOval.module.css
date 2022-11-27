@@ -1,3 +1,18 @@
-div {
-  background-color: aqua;
+.rounded {
+  color: #f53855;
+  background-color: #fff;
+
+  width: 150px;
+  height: 45px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  border: 1px solid #f53855;
+  border-radius: 50px;
+}
+.rounded:hover {
+  background-color: #fff;
+  text-shadow: 1px 1px 10px #edb4bc;
 }

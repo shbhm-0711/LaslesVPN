@@ -1,4 +1,4 @@
-import Raect, { useState } from "react";
+import Raect from "react";
 import LandingPage from "./pages/landingPage/LandingPage.jsx";
 import styles from "./App.module.css";
 

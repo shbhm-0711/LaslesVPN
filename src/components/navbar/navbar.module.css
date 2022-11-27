@@ -1,3 +1,127 @@
-div {
-  background-color: aqua;
+.navbar {
+  display: flex;
+  padding: 30px 50px;
+}
+
+.logo {
+  width: 149px;
+  height: 36.23px;
+  flex: 1;
+  cursor: pointer;
+
+  padding: 0;
+  margin: auto 0;
+}
+
+.desktopAnchors {
+  flex: 3;
+  display: flex;
+}
+
+.anchor {
+  flex: 3;
+  box-sizing: border-box;
+  color: #4f5665;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  padding: 0 15px;
+  margin: auto 0;
+}
+
+.logging {
+  flex: 2;
+  display: flex;
+  margin-right: 15px;
+}
+
+.SignInButton {
+  color: #0b132a;
+  background-color: #fff;
+
+  padding: 0 20px;
+  margin: 10px 0;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  border: none;
+}
+
+.SignInButton:hover {
+  border: none;
+  background-color: #fff;
+  text-shadow: 0 0 3px #d6d8da;
+}
+
+.anchorsMenuButton {
+  width: 40px;
+  height: 40px;
+  color: #0b132a;
+  background-color: #fff;
+  border: none;
+  padding: 5px;
+  margin: auto 0;
+  font-size: x-large;
+
+  display: none;
+}
+
+.anchorsMenu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  border: 1px solid #0b132a;
+
+  padding: 30px;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  margin-top: 15px;
+  min-width: 150px;
+  border-radius: 5px;
+}
+.loggingMobile {
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .desktopAnchors {
+    display: none;
+  }
+  .anchorsMenuButton {
+    display: flex;
+  }
+  .anchor {
+    flex: none;
+    margin: 5px 0;
+  }
+  .logging {
+    justify-content: flex-end;
+  }
+}
+@media screen and (max-width: 700px) {
+  .navbar {
+    padding: 10px 15px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .navbar {
+    padding: 10px;
+  }
+  .logging {
+    display: none;
+  }
+  .loggingMobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .anchorsMenu {
+    top: 45px;
+  }
 }

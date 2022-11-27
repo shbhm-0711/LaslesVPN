@@ -1,18 +1,26 @@
 import React from "react";
-import { Navbar } from "../../components/index";
-import { Features, Footer, GetStarted, Header } from "../../containers/index";
+import { Infographic, Navbar } from "../../components/index";
+import {
+  ChooseYourPlan,
+  Features,
+  Footer,
+  Header,
+  Network,
+} from "../../containers/index";
 
 import styles from "./landingpage.module.css";
 
 const LandingPage = () => {
   return (
     <div>
-      <div className={styles.topBar}>
+      <div className={styles.top}>
         <Navbar />
         <Header />
       </div>
-      <GetStarted />
+      <Infographic />
       <Features />
+      <ChooseYourPlan />
+      <Network />
       <Footer />
     </div>
   );
