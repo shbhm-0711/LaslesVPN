@@ -1,6 +1,6 @@
 .navbar {
   display: flex;
-  padding: 30px 50px;
+  padding: 50px 150px;
 }
 
 .logo {
@@ -90,7 +90,12 @@
   display: none;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1281px) {
+  .navbar {
+    padding: 30px 50px;
+  }
+}
+@media screen and (max-width: 1025px) {
   .desktopAnchors {
     display: none;
   }
@@ -105,12 +110,12 @@
     justify-content: flex-end;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 769px) {
   .navbar {
     padding: 10px 15px;
   }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 641px) {
   .navbar {
     padding: 10px;
   }

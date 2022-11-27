@@ -19,7 +19,7 @@ const AnchorsMenu = () => {
 const Navbar = () => {
   const [toggelMenu, setToggelMenu] = useState(false);
   return (
-    <div className={styles.navbar}>
+    <nav className={styles.navbar}>
       <img className={styles.logo} src={Logo} alt="Logo" />
       <div className={styles.desktopAnchors}>
         <AnchorsMenu />
@@ -46,7 +46,7 @@ const Navbar = () => {
           </div>
         </div>
       )}
-    </div>
+    </nav>
   );
 };
 
