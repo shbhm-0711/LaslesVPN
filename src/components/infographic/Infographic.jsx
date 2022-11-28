@@ -6,16 +6,17 @@ import iconLocation from "../../assets/Group 1215.svg";
 import iconServers from "../../assets/Group 1217.svg";
 
 const Info = (props) => {
-  <div>
-    <img className={styles.icon} src={props.icon} />
-    <div className={styles.innerFlex}>
-      <div className={styles.what}>
-        {props.what}
-        <strong className={styles.count}>{props.count}</strong>
+  return (
+    <div className={styles.singleInfo}>
+      <img className={styles.icon} src={props.icon} />
+      <div className={styles.innerFlex}>
+        <div className={styles.what}>
+          {props.what}
+          <strong className={styles.count}>{props.count}</strong>
+        </div>
       </div>
     </div>
-    ;
-  </div>;
+  );
 };
 
 const Infographic = () => {

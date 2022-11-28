@@ -1,5 +1,12 @@
 .main {
   display: flex;
+  width: 535.6px;
+  height: 93.97px;
+
+  background: #ffffff;
+  border-radius: 4.69826px;
+  box-shadow: 0 10px 90px #0b132a20;
+  margin: 70px auto;
 }
 
 .what {
@@ -19,18 +26,47 @@
   font-weight: 700;
   font-size: 11.7456px;
   line-height: 14px;
+  margin-left: 5px;
 
   /* or 120% */
 
   color: #0b132a;
 }
+.singleInfo {
+  display: flex;
+  margin: auto;
+}
 .innerFlex {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .icon {
   width: 25.84px;
   height: 25.84px;
+  margin: auto 15px auto 0;
 
   background: #ffecec;
   border-radius: 32.8878px;
+}
+
+@media screen and (max-width: 641px) {
+  .main {
+    flex-direction: column;
+    width: auto;
+    margin: -50px auto 50px;
+    max-width: 300px;
+    min-width: 200px;
+    height: auto;
+  }
+  .singleInfo {
+    margin: 15px auto;
+    /* justify-content: flex-start; */
+  }
+  .icon {
+    flex: 1;
+  }
+  .innerFlex {
+    flex: 5;
+  }
 }
