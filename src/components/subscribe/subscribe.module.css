@@ -3,7 +3,7 @@
   height: 200px;
 
   background: #ffffff;
-  border-radius: 20px;
+  border-radius: 30px;
   box-shadow: 0 10px 80px #11111170;
   display: flex;
   padding: auto;
@@ -32,4 +32,43 @@
   margin: auto;
   /* margin-left: 80px;
   margin-right: -80px; */
+}
+
+@media screen and (max-width: 1281px) {
+  .card {
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .card {
+    flex-direction: column;
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .card {
+    width: auto;
+    height: auto;
+    margin: auto 50px;
+  }
+  .btn {
+    margin: 40px auto;
+  }
+  .heading2 {
+    margin: 30px auto 5px;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .card {
+    margin: auto 20px;
+  }
+  .btn {
+    margin: 25px auto;
+  }
+  .heading2 {
+    margin: 25px auto 5px;
+  }
 }

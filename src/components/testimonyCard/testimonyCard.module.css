@@ -18,6 +18,7 @@
 }
 .top {
   display: flex;
+  justify-content: flex-start;
 }
 .image {
   width: 60px;
@@ -80,10 +81,41 @@
   .description {
     font-size: 12px;
   }
+  .heading4 {
+    font-size: 16px;
+  }
+  .location {
+    font-size: 12px;
+  }
+  .image {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+  }
 }
 @media screen and (max-width: 769px) {
   .main {
     height: 150px;
     margin: 10px auto;
+  }
+  .image {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .description {
+    font-size: 12px;
+  }
+  .heading4 {
+    font-size: 16px;
+  }
+  .location {
+    font-size: 12px;
+  }
+  .top {
+    height: 100px;
   }
 }

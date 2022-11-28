@@ -25,17 +25,24 @@
 }
 .testimonials {
   display: flex;
+  margin: auto 100px;
 }
 
 @media screen and (max-width: 1281px) {
   .headin2 {
     font-size: 32px;
   }
+  .testimonials {
+    margin: auto 30px;
+  }
 }
 
 @media screen and (max-width: 1025px) {
   .headin2 {
     font-size: 28px;
+  }
+  .testimonials {
+    margin: auto 20px;
   }
 }
 
@@ -45,6 +52,7 @@
   }
   .testimonials {
     flex-direction: column;
+    margin: auto 10px;
   }
   .paragraph {
     margin-bottom: 30px;
