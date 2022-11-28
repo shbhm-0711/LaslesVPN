@@ -9,7 +9,7 @@
   width: 330px;
   height: 760px;
   left: 175px;
-  margin: 0 25px auto;
+  margin: 50px 25px auto;
   padding: 0 20px;
 }
 
@@ -97,7 +97,7 @@
   .card {
     margin: 15px auto;
     height: auto;
-    width: 95%;
+    width: 310px;
     flex-direction: row;
   }
   .textAndButton {

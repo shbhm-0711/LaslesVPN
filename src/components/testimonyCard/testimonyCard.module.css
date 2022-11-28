@@ -118,4 +118,7 @@
   .top {
     height: 100px;
   }
+  .main {
+    width: 310px;
+  }
 }
