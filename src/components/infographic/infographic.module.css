@@ -1,4 +1,36 @@
-.infoList {
-  color: brown;
-  /* background-color: burlywood; */
+.main {
+  display: flex;
+}
+
+.what {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.39651px;
+  line-height: 14px;
+
+  /* or 150% */
+
+  color: #4f5665;
+}
+.count {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11.7456px;
+  line-height: 14px;
+
+  /* or 120% */
+
+  color: #0b132a;
+}
+.innerFlex {
+  display: flex;
+}
+.icon {
+  width: 25.84px;
+  height: 25.84px;
+
+  background: #ffecec;
+  border-radius: 32.8878px;
 }

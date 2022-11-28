@@ -6,9 +6,9 @@ import { Plan } from "../../components/index";
 const ChooseYourPlan = () => {
   return (
     <div className={styles.plans}>
-      <Plan type="free"></Plan>
-      <Plan type="standard"></Plan>
-      <Plan type="premium"></Plan>
+      <Plan type="free" price="Free"></Plan>
+      <Plan type="standard" price="$9"></Plan>
+      <Plan type="premium" price="$12"></Plan>
     </div>
   );
 };
