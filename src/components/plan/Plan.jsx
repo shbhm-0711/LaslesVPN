@@ -62,7 +62,7 @@ const Plan = (props) => {
   return (
     <div className={styles.card}>
       <img className={styles.planImgClass} src={planIcon} />
-      <div className="textAndButton">
+      <div className={styles.textAndButton}>
         <ul className={styles.benifitsList}>
           {benifits[props.type].map((item, index) => (
             <List

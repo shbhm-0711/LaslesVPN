@@ -20,9 +20,39 @@
   line-height: 143%;
 
   text-align: center;
-  margin-top: 135px;
+  margin-top: 70px;
   margin-bottom: 9.4px;
 }
 .testimonials {
   display: flex;
+}
+
+@media screen and (max-width: 1281px) {
+  .headin2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .headin2 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .headin2 {
+    font-size: 24px;
+  }
+  .testimonials {
+    flex-direction: column;
+  }
+  .paragraph {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .headin2 {
+    font-size: 20px;
+  }
 }

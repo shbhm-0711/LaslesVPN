@@ -1,7 +1,7 @@
 .map {
   width: 1060px;
   height: 537.77px;
-  margin: 155.81px auto;
+  margin: 100px auto;
 }
 
 .parahgraph {
@@ -57,4 +57,51 @@
   background-color: #fff;
   background: #fff;
   height: 50px;
+}
+
+@media screen and (max-width: 1281px) {
+  .map {
+    width: 960x;
+    /* height: 537.77px; */
+    margin: 40px auto;
+  }
+  .sponsors {
+    margin: 0 69.61px;
+  }
+  .headin2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .map {
+    width: 720px;
+    /* height: 537.77px; */
+    margin: 20px auto;
+  }
+  .headin2 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .map {
+    width: 550px;
+    /* height: 537.77px; */
+    margin: 10px auto;
+  }
+  .headin2 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .map {
+    width: 360px;
+    /* height: 537.77px; */
+    margin: 5px auto;
+  }
+  .headin2 {
+    font-size: 20px;
+  }
 }

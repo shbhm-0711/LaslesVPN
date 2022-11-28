@@ -72,3 +72,18 @@
   align-items: center;
   color: #0b132a;
 }
+
+@media screen and (max-width: 1025px) {
+  .main {
+    height: 220px;
+  }
+  .description {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .main {
+    height: 150px;
+    margin: 10px auto;
+  }
+}
